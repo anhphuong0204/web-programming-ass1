@@ -1,0 +1,26 @@
+.member-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 2rem;
+    width: 100%;
+}
+.member-container .service {
+    text-align: center;
+    margin: 5rem 0;
+    padding: 0 1rem;
+    z-index: 1;
+}
+.member-container .service h2 {
+    margin: 1rem 0;
+}
+.member-container .service p {
+    opacity: 0.8;
+}
+
+@media (max-width: 725px) {
+    .member-container {
+        flex-wrap: wrap;
+    }
+}
